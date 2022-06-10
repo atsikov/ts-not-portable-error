@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "typings": "types/index.d.ts",
   "scripts": {
-    "build:dts": "tsc --traceResolution"
+    "build:dts": "tsc"
   },
   "author": "",
   "license": "MIT",
