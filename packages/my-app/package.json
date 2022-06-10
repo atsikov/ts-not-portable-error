@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo/my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "build:dts": "tsc --traceResolution"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo/common": "workspace:*",
+    "react": "17.0.1",
+    "react-query": "3.5.5"
+  },
+  "devDependencies": {
+    "typescript": "4.7.3"
+  }
+}

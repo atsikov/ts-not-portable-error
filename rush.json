@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+
+  "rushVersion": "5.61.3",
+  "pnpmVersion": "6.7.1",
+  "pnpmOptions": {
+    "preventManualShrinkwrapChanges": true,
+    "useWorkspaces": true
+  },
+
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+  "ensureConsistentVersions": true,
+  "projects": [
+    {
+      "packageName": "@monorepo/common",
+      "projectFolder": "packages/common"
+    },
+    {
+      "packageName": "@monorepo/my-app",
+      "projectFolder": "packages/my-app"
+    }
+  ]
+}
