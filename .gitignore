@@ -4,3 +4,4 @@
 **/temp/
 **/types/
 **/tsconfig.tsbuildinfo
+**/*.log
